@@ -1,2 +1,2 @@
-// compiler import
-pragma solidity ^0.4.23;
+// changed compiler 
+ pragma solidity ^5.1.10;
