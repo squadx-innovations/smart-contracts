@@ -6,6 +6,7 @@ contract structures{
       
       function getView(string _name) public view {
           input = _name;
+          // comment
       }
   
 }
