@@ -13,7 +13,7 @@ contract structures{
             number = _number;
       }
       
-      function getData() returns(uint) public{
+      function getData() public returns(uint){
             return number;
       }     
   
