@@ -8,6 +8,8 @@ contract structures{
           input = _name;
           // comment
       }
+     
+      int a;
       
       function setNumber(uint _number) public {
             number = _number;
