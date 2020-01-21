@@ -1,2 +1,6 @@
 // changed compiler 
- pragma solidity ^5.1.10;
+ pragma solidity ^0.5.10;
+ 
+ contract fundRaiser{
+     
+ }
