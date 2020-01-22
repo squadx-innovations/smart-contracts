@@ -7,4 +7,11 @@ contract StateVariablesAndFunctions {
 
     //set statement function
     function setStatement(string _statement) public  {
-        statement 
+        statement = _statement;
+    }
+
+    //get statement function
+    function getStatement() public view returns(string) {
+        return statement;
+    }
+}
