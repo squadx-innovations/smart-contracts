@@ -1,4 +1,6 @@
-pragma solidity 0.4.23;
-
-contract FundRaising {
-    address owner 
+// changed compiler 
+ pragma solidity ^0.4.23;
+ 
+ contract Funds {
+     
+ }
