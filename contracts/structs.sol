@@ -1,8 +1,18 @@
-pragma solidity ^0.4.23;
+pragma solidity  ^0.4.23;
 
-contract structures{
-      
-      string input;
-      uint number;
-      function getView(string _name) public view {
-          input 
+contract StructsArray {
+    
+    struct Employee {
+        string name;
+        uint age;
+    }
+    
+    Employee [] employees;
+    
+    function addEmployee(string name, uint256 age) public {
+        employees.push(Employee(name, age));
+    }
+    
+    
+    function getEmployee(uint index) public view returns (string name, uint age) {
+        name 
