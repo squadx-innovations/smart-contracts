@@ -1,7 +1,7 @@
 pragma solidity 0.4.23;
 
 contract FundRaising {
-    address owner = 0x17ef669115293087bc507ddc5e4d6b48209e32d5;
+    address owner = 0x17EF669115293087BC507dDc5e4d6b48209e32d5;
     uint public total = 0;
     
     modifier ownerOnly() {
